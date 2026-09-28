@@ -1,3 +1,5 @@
-export default function Page() {
-  return <h1>fee page!</h1>
+import { redirect } from "next/navigation";
+
+export default function FeesRedirect() {
+  redirect("/admin/fees");
 }
